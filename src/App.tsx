@@ -1,9 +1,9 @@
-import React from 'react';
-import NavBar from './components/navbar';
+import * as React from 'react';
+import HomePage from './pages/home/HomePage';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <HomePage />
     </div>
   );
 }
